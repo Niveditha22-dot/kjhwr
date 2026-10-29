@@ -13,6 +13,13 @@ AC, FC = load()
 def frame(cutoff_hour):
     return compare(AC, FC, cutoff_hour)
 
+@app.get("/")
+def root():
+    return {
+        "service": "GB wind forecast vs actual API",
+        "docs": "/docs",
+        "example": "/api/metrics?cutoff_hour=9",
+    }
 
 @app.get("/api/health")
 def health():
