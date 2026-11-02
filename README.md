@@ -11,7 +11,7 @@ A web app for a **day-ahead power buyer in Great Britain**. It answers two quest
 |---|---|
 | 🌐 Live app | https://kjhwr-7yfm.vercel.app/ |
 | ⚙️ API | https://kjhwr-tau.vercel.app/ (docs at [`/docs`](https://kjhwr-tau.vercel.app/docs)) |
-| 🎥 Video demo | ADD_YOUTUBE_LINK_HERE |
+| 🎥 Video demo | ADD_YOUTUBE_LINK |
 
 Scope: national wind only, from Elexon (FUELHH actuals, WINDFOR forecasts), for purchase decisions made in January 2026.
 
